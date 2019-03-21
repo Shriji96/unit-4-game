@@ -8,18 +8,77 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
-    <title>Crystal Collector</title>
+    <title>Crystals Game</title>
 </head>
 <body>
-   <p id="random"></p>
 
-<script type="text/javascript" src="assets/javascript/game.js"></script>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-md-4">
+          <h1>CrystalsCollector!</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8" id="row-2">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" id="row-3">
+              <p id="random"></p>
+      </div>
+      <div class="col-md-4" id="row-3-col-2">
+            <p id="wins">Wins:</p>
+            <p id="losses">Losses:</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2" id="row-4-col-1">
+          <img src="assets/images/Crystal Game 1.jpg" height="75px" width="75px">
+      </div>
+      <div class="col-md-2" id="row-4-col-2">
+          <img src="assets/images/Crystal Game 2.jpg" height="75px" width="75px" >
+      </div>
+      <div class="col-md-2" id="row-4-col-3">
+          <img src="assets/images/Crystal Game 3.jpg" height="75px" width="75px">
+      </div>
+      <div class="col-md-2" id="row-4-col-4">
+          <img src="assets/images/Crystal Game 4.jpg" height="75px" width="75px">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" id="row-5-col-1">
+        <p>Your total score is:</p>
+      </div>
+      <div class="col-md-4" id="row-5-col-2"></div>
+        <p id="score"></p>
+      </div>
+  </div>
+
+
+</div>
+
+   
 
 
 <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+  </script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
 
 
 </body>

@@ -1,0 +1,43 @@
+body {
+    background-image: url("../images/Crystal-image2.jpg") ;
+}
+
+h1 {
+    background-color: orange;
+}
+
+#row-2 {
+    background-color: wheat;
+}
+
+#row-3 {
+    background-color: green;
+}
+
+#row-3-col-2 {
+    background-color: lightblue;
+}
+
+#row-4-col-1 {
+    background-color: wheat;
+}
+#row-4-col-2 {
+    background-color: wheat;
+}
+
+#row-4-col-3 {
+    background-color: wheat;
+}
+
+#row-4-col-4 {
+    background-color: wheat;
+}
+
+#row-5-col-1 {
+    background-color: lightseagreen;
+}
+
+#row-5-col-2 {
+    background-color: lightseagreen;
+    padding: 50px;
+}
